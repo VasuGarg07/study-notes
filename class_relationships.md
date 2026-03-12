@@ -29,3 +29,5 @@
 * __Dependency Injection__ is a design technique where a class receives the objects it depends on, instead of creating them itself.
 
 * __Realization__ represents a __contract fulfillment__ relationship. Think of it as a promise: the interface declares "these methods must exist," and the implementing class promises to provide them
+
+* Realization: "can-do" relationship; Inheritance: "is-a" relationship
