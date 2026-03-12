@@ -1,5 +1,3 @@
-# CLASS RELATIONSHIPS
-
 * __Association__ represents a relationship between two classes where one object uses, communicates with, or references another object.
 
 * Association reflects a _"has-a"_ or _"uses-a"_ relationship.
