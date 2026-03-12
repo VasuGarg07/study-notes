@@ -1,5 +1,3 @@
-# OOPS CONCEPTS
-
 * A __class__ is a blueprint, template, or recipe for creating objects. It defines what an object will contain (its data) and what it will be able to do (its behavior).
 
 * An __object__ is an instance of a class.  It's the actual thing you can interact with, store data in, and invoke methods on.
