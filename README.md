@@ -11,3 +11,4 @@ Quick revision notes for interview preparation.
     - [Use Case Diagram](use_case_diagram.md)
     - [Sequence Diagram](sequence_diagrams.md)
 - [Design Patterns](design_patterns.md)
+- [Design Patterns List](design_patterns_list.md)
