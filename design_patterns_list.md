@@ -10,3 +10,13 @@
 5. **Prototype Pattern**: A creational design pattern that lets you create new objects by **cloning existing ones**, instead of instantiating them from scratch.
     - Prototype implementations should do *Deep Copy* when the object contains mutable reference types.
 
+### Structural Design Pattern
+
+6. **Adapter Pattern**: A structural design pattern that **allows incompatible interfaces to work together** by converting the interface of one class into another that the client expects.
+7. **Facade Pattern**: A structural design pattern that **provides a single, simplified interface to a complex subsystem**. Instead of forcing clients to coordinate many moving parts, a facade hides the internal complexity and exposes a clean, easy-to-use entry point.
+8. **Decorator Pattern**: A structural pattern that lets you **dynamically add new behavior or responsibilities** to objects without modifying their underlying code.
+9. **Composite Pattern**: A structural pattern that lets you treat individual objects and compositions of objects uniformly.
+10. **Proxy Pattern**: A structural pattern that provides a placeholder or surrogate for another object, allowing you to control access to it.
+11. **Bridge Pattern**: A structural pattern that lets you decouple an abstraction from its implementation, allowing the two to vary independently.
+12. **Flyweight Pattern**: A structural pattern that focuses on efficiently sharing common parts of object state across many objects to reduce memory usage and boost performance.
+
