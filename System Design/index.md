@@ -1,2 +1,5 @@
+# High level System Design
+
 - [System Design Fundamentals](system_design_fundamentals.md)
-- [Scalability](scalability.md)
+- [Vertical and Horizontal Scaling](scalability.md)
+- [Load Balancing and Consisten Hashing](load_balancing.md)
