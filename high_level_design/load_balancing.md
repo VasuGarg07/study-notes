@@ -3,7 +3,7 @@ Load balancing is an impportant concept when we talk about Horizontal Scaling. W
 
 A Load Balancer is a solution that is a traffic proxy who distributes network and application traffic across endpoints on a number of servers. Load balancers are used to distribute capacity during Peak Hours and increase reliability of the applications by reducing burden on individual servers.
 
-<img src="../assets/load_balancer.webp" alt="Load Balancer" style="max-width: 100%; height: auto;">   
+<img src="../assets/load_balancer.png" alt="Load Balancer" style="max-width: 100%; height: auto;">   
 
 ### Advantages of using a load balancer include:
 - **Application Availability** - One node goes down, rest will distribute its traffic while it recovers.
@@ -59,4 +59,4 @@ This leads to most of keys getting redistributed, rendering our cache useless, a
 
 To resolve this issue, we create **virtual nodes**. Essentially we use multiple hash functions to map each server on the hash ring multiple times. This makes the partition and distribution of keys more balanced.
 
-<img src="../assets/hash_ring.webp" alt="Hash Ring with Virtual Nodes" style="max-width: 100%; height: auto;">   
+<img src="../assets/hash_ring.png" alt="Hash Ring with Virtual Nodes" style="max-width: 100%; height: auto;">   

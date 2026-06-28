@@ -9,7 +9,7 @@ All of these add upto ~6s of wait time before response. And that is not all, If 
 
 > A message queue is a form of service-to-service communication that facilitates asynchronous communication. It asynchronously receives messages from producers and sends them to consumers.
 
-<img src="../assets/message_queue.webp" alt="Message Queue" style="max-width: 100%; height: auto;">   
+<img src="../assets/message_queue.png" alt="Message Queue" style="max-width: 100%; height: auto;">   
 
 Essentially, we decouple our service into a **"Producer"** (lightweight API Server) and **"Consumer"** (asynchronous workers) and a buffer between the two which is known as **"Message Queue"**.
 

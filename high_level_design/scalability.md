@@ -17,7 +17,7 @@ You have 2 options:
 1. **Buy Bigger Machine** which is known as Vertical Scaling. Larger machine has more computation power and as such, it can handle more requests.
 2. **Buy More Machines** which we call Horizontal Scaling. Instead of replacing your machine with bigger ones, you buy more units of same type and distribute your traffic across those machines instead .
 
-<img src="../assets/scaling.webp" alt="Vertical and Horizontal Scaling" style="max-width: 100%; height: auto;">   
+<img src="../assets/scaling.png" alt="Vertical and Horizontal Scaling" style="max-width: 100%; height: auto;">   
 
 ### Differences between Horizontal Scaling vs. Vertical Scaling
 
