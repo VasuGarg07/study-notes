@@ -1,0 +1,67 @@
+site_name: Vasu's Study Notes
+
+
+nav:
+  - Home: index.md
+  - Low Level Design:
+    - Overview: low_level_design/index.md
+    - Key Definitions: low_level_design/key_definitions.md
+    - OOPS Concepts: low_level_design/oops_concepts.md
+    - Class Relationships: low_level_design/class_relationships.md
+    - Design Principles: low_level_design/design_priniciples.md
+    - SOLID Principles: low_level_design/solid_principles.md
+    - Design Patterns: low_level_design/design_patterns.md
+    - UML - Class Diagrams: low_level_design/class_diagrams.md
+    - UML - Sequence Diagrams: low_level_design/sequence_diagrams.md
+    - UML - Use Case Diagrams: low_level_design/use_case_diagram.md
+  - High Level Design:
+    - Overview: high_level_design/index.md
+    - System Design Fundamentals: high_level_design/system_design_fundamentals.md
+    - Scalability: high_level_design/scalability.md
+    - Load Balancing: high_level_design/load_balancing.md
+    - Message Queue: high_level_design/message_queue.md
+    - Monolith vs Microservice: high_level_design/monolith_vs_microservice.md
+  - Design Patterns:
+    - Overview: design_patterns/design_patterns_list.md
+    - Creational: design_patterns/creational.md
+    - Structural: design_patterns/structural.md
+    - Behavioral: design_patterns/behavioral.md
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+extra:
+  generator: false
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+- pymdownx.superfences
+- pymdownx.highlight
+- tables
+- toc:
+    permalink: true
+
+plugins:
+  - search
+  - macros

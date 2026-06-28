@@ -1,0 +1,5 @@
+/* Hide the copyright / meta bar at the bottom of the footer,
+   keeping the prev/next navigation footer intact. */
+.md-footer-meta {
+  display: none;
+}
